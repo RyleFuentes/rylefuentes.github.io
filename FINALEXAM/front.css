@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin: 0;
+    background: linear-gradient(hsla(0, 0%, 100%, 0.65), hsla(0, 0%, 50%, 0.6), hsla(0, 0%, 0%, 0.9) 80%),
+                url(https://i.pinimg.com/originals/a2/35/f4/a235f4394ef39feb1058efd7d82bd939.jpg);
+    background-size:cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.headercont{
+    border:none;  
+    width: auto;
+}
+
+
+header{
+    width: 100%;
+    padding: 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background: linear-gradient( hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 0%, 0.9) 80%) ;
+}
+
+
+.logo{
+    border: 2px solid white;
+    color: white;
+    font-family: Broadway;
+    font-size: 35px;
+    max-width: max-content;
+    float: left;
+}
+
+header nav *{
+    text-decoration: none;
+    color: white;
+}
+header nav{
+    padding: 10px;
+   text-align: right;
+   word-spacing: 20px;
+   
+}
+
+header li{
+    font-family: broadway;
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    transition: transfrom 1s;
+    
+}
+
+header li :hover{
+    box-shadow: 0 0 3em white;
+    background: purple;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+section{
+    height: max-content;
+    padding: 15px;
+}
+
+section div{
+    padding: 10px;
+    
+}
+
+.contain {
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 15x;
+    gap: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 5em;
+    
+}
+#text{
+    height: max-content;
+    font-family: century gothic;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px;
+    border-radius: 8px;
+    max-width: 300px;
+    align-self: center;
+}
+
+.firstpic{
+    background-image: url(https://www.desktophut.com/wp-content/uploads/2022/01/Apex-Legends-Ash-Hd-Live-Wallpaper/Apex-Legends-Ash-Hd-Live-Wallpaper_thumbnail.jpg);
+    background-size:cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    box-shadow: 0 0 2em blueviolet;
+    border-radius: 15px;
+}   
+
+footer{
+    padding: 30px;
+    border: none;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    list-style: none;
+    background:linear-gradient(hsla(0, 0%, 50%, 0.3), hsla(0, 0%, 0%, 0.75) 25%) 
+}
+
+footer li{
+    color: white;
+    font-family: century gothic;
+}
+
+#fb *{
+    color: white;
+    text-decoration: none;
+}
+
+#fb :hover{
+    color: aqua;
+}
+
+.line{
+    border: 2px solid black;
+    height: 2mm;
+    background: linear-gradient(aqua, blueviolet);
+}
+
+.contain2nd{
+    border-top: 2px solid black;
+    margin-top: 5em;
+    background:url(https://wallpaperaccess.com/full/1767715.jpg) ;
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+}
+
+.contain2nd h1{
+    color: white;
+    font-family: broadway;
+    font-size: 50px;
+}
+
+.contain2{
+    gap: 1em;
+    display: flex;
+}
+
+
+.titleContain{
+    border: 2px;
+    align-self: center;
+}
+
+.contain2 div{
+    justify-content: center;
+    border: 2px solid rgb(89, 5, 5);
+    padding: 15px;
+    margin: auto;
+    width: 40%;
+    min-width: 150px;
+    max-width: 300px;
+    height: 150px;
+    
+    
+}
+
+.image1{
+    background: url(https://cdn.shopify.com/s/files/1/0553/9748/2672/products/GUEST_12e704d0-7630-44d1-a864-c42d3ddd2ac3_800x.jpg?v=1645190886);
+    background-size: cover;
+    background-position: center top;
+    transition: 600ms;
+    opacity: .7;
+    
+}
+
+.image1:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    z-index: 2;
+    box-shadow: 0 0 2em rgb(244, 71, 244);
+}
+
+.image2{
+    background-image: url(https://www.pngitem.com/pimgs/m/536-5366070_image-lifeline-apex-transparent-hd-png-download.png);
+    background-size: cover;
+    background-position: center top;
+    transition: 600ms;
+    opacity: .7;
+}
+
+.image2:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    z-index: 2;
+    box-shadow: 0 0 2em rgb(244, 71, 244);
+}
+
+.image3{
+    background-image: url(https://esportspedia-apex.s3.amazonaws.com/1/18/Gibraltar.png);
+    background-size: cover;
+    background-position: center top;
+    transition: 600ms;
+    opacity: .7;
+    
+}
+
+.image3:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    z-index: 2;
+    box-shadow: 0 0 2em rgb(244, 71, 244);
+
+}
+
+
+@media (max-width: 380px){
+    .contain2nd h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 751px) {
+
+    header li{
+        font-size: 15px;
+        flex-direction: column;
+        word-spacing: 5px;
+    }
+    
+
+    #text{
+        font-size: 10px;
+        
+    }
+    .firstpic{
+        width: 65%;
+        height: 250px;
+        align-self: center;
+        
+    }
+
+
+    .contain{
+        flex-direction: column;
+        gap: 0.7em;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 2ch;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    
+
+    .contain2{
+        flex-direction: column;
+        margin-top: 3em;
+    }
+}
